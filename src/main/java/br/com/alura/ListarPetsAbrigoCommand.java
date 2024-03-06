@@ -12,7 +12,7 @@ public class ListarPetsAbrigoCommand implements Command{
         try {
             ClientHttpConfiguration client = new ClientHttpConfiguration();
             PetService petService = new PetService(client);
-            petService.importarPetsDoAbrigo();
+            petService.listarPetsDoAbrigo();
         }catch (IOException | InterruptedException e) {
             System.out.println(e.getMessage());
         }
