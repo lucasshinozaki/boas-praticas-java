@@ -6,7 +6,7 @@ public class AdopetConsoleApplication {
 
     public static void main(String[] args) {
         CommandExecutor executor = new CommandExecutor();
-        System.out.println("##### BOAS VINDAS AO SISTEMA ADOPET CONSOLE #####");
+        System.out.println("#### BOAS VINDAS AO SISTEMA ADOPET CONSOLE ####");
         try {
             int opcaoEscolhida = 0;
             while (opcaoEscolhida != 5) {
